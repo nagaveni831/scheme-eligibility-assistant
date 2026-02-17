@@ -1,0 +1,222 @@
+body{
+font-family:'Segoe UI', Arial;
+background:linear-gradient(135deg,#dbeafe,#eef2f7,#c7d2fe);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+
+/* CHAT CONTAINER */
+.chatbox{
+position:relative; /* ADD THIS */
+width:850px;
+max-width:95%;
+background:white;
+border-radius:18px;
+box-shadow:0 15px 40px rgba(0,0,0,0.15);
+padding:18px;
+display:flex;
+flex-direction:column;
+}
+
+
+
+/* MESSAGE AREA */
+#messages{
+height:450px;
+overflow-y:auto;
+margin-bottom:12px;
+padding-right:5px;
+scroll-behavior:smooth;
+}
+
+
+/* MESSAGE BUBBLE */
+.msg{
+margin:6px 0;
+padding:10px 14px;
+border-radius:15px;
+max-width:70%;
+line-height:1.45;
+font-size:15px;
+word-wrap:break-word;
+}
+
+
+/* USER MESSAGE */
+.user{
+background:linear-gradient(135deg,#2563eb,#1d4ed8);
+color:white;
+margin-left:auto;
+border-bottom-right-radius:6px;
+}
+
+
+/* BOT MESSAGE */
+.bot{
+background:#f1f5ff;
+color:#1e293b;
+border-bottom-left-radius:6px;
+}
+
+
+/* BOT HEADINGS */
+.msg.bot b{
+color:#2563eb;
+font-size:16px;
+display:block;
+margin:6px 0 2px;
+}
+
+
+/* LIST SPACING */
+.msg.bot ul{
+margin:5px 0;
+padding-left:18px;
+}
+
+.msg.bot li{
+margin:2px 0;
+}
+
+
+/* INPUT AREA */
+.inputBox{
+display:flex;
+gap:10px;
+}
+
+
+/* INPUT FIELD */
+input{
+flex:1;
+padding:12px;
+border-radius:10px;
+border:1px solid #cbd5e1;
+font-size:15px;
+outline:none;
+transition:.2s;
+}
+
+input:focus{
+border-color:#2563eb;
+box-shadow:0 0 5px rgba(37,99,235,0.3);
+}
+
+
+/* BUTTON */
+button{
+padding:12px 20px;
+background:linear-gradient(135deg,#2563eb,#1d4ed8);
+color:white;
+border:none;
+border-radius:10px;
+font-weight:600;
+cursor:pointer;
+transition:.2s;
+}
+
+button:hover{
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(37,99,235,0.4);
+}
+
+
+/* SCROLLBAR STYLE */
+#messages::-webkit-scrollbar{
+width:6px;
+}
+
+#messages::-webkit-scrollbar-thumb{
+background:#94a3b8;
+border-radius:10px;
+}
+
+
+/* TYPING DOTS */
+.dot{
+height:8px;
+width:8px;
+margin:0 3px;
+background:#2563eb;
+border-radius:50%;
+display:inline-block;
+animation:bounce 1.4s infinite;
+}
+
+.dot:nth-child(2){animation-delay:0.2s;}
+.dot:nth-child(3){animation-delay:0.4s;}
+
+@keyframes bounce{
+0%,80%,100%{transform:scale(0);}
+40%{transform:scale(1);}
+}
+
+
+/* ICON BUTTONS */
+.iconBtn{
+width:58px;
+height:58px;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#2563eb;
+border:none;
+border-radius:16px;
+cursor:pointer;
+transition:.2s;
+color:white;
+box-shadow:0 5px 15px rgba(37,99,235,0.4);
+}
+
+.iconBtn:hover{
+background:#1d4ed8;
+transform:scale(1.08);
+}
+
+.iconBtn svg{
+width:28px;
+height:28px;
+stroke:white;
+stroke-width:2.5;
+}
+.voiceTop{
+position:absolute;
+top:15px;
+right:15px;
+
+width:52px;
+height:52px;
+border-radius:50%;
+
+border:none;
+background:linear-gradient(145deg,#ff4d4d,#dc2626);
+color:white;
+padding:0;
+display:flex;
+align-items:center;
+justify-content:center;
+
+cursor:pointer;
+
+box-shadow:0 10px 25px rgba(0,0,0,0.25),
+
+}
+.voiceTop svg{
+width:28px;
+height:28px;
+stroke-width:2.5;
+}
+.voiceTop:hover{
+transform:scale(1.05);
+background:#dc2626;
+
+}
+
+.voiceTop:active{
+background:#16a34a;
+}
+

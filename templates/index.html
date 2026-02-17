@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chatbot</title>
+<link rel="stylesheet" href="/static/style.css">
+<script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+
+<body>
+
+<div class="chatbox">
+    <button class="voiceTop" onclick="toggleVoice()" id="voiceBtn">
+<i data-lucide="volume-2"></i>
+</button>
+
+<div id="messages"></div>
+
+<div class="inputBox">
+
+<input id="input" placeholder="Type message..." onkeydown="enter(event)">
+
+<button class="iconBtn" onclick="startVoice()">
+<i data-lucide="mic"></i>
+</button>
+
+<!-- 🔊 ADD THIS BUTTON -->
+
+
+
+<button onclick="send()">Send</button>
+
+<button onclick="resetChat()">Reset</button>
+
+</div>
+
+
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
