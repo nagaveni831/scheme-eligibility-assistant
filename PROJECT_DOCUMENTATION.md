@@ -48,19 +48,7 @@ This automated approach improves accuracy, speed, and usability.
 
 ### 5.1 High-Level Architecture
 
-User Input
-  ↓
-Input Processing Module
-  ↓
-Eligibility Engine
-  ↓
-Scheme Filtering Module
-  ↓
-Ranking Algorithm
-  ↓
-Response Generator + Report Generator
-  ↓
-Final Output
+Input → Processing → Eligibility Analysis → Filtering → Ranking → Output → Report Generation
 
 ---
 
