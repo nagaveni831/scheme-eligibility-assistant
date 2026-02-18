@@ -20,6 +20,7 @@ Instead of manually searching multiple websites, users simply answer a few quest
 
 🌐 Live deployed web application
 
+
 🧩 System Workflow
 
 1.User enters personal details
@@ -33,6 +34,7 @@ Instead of manually searching multiple websites, users simply answer a few quest
 5.Explanation generated for each scheme
 
 6.User can download detailed report
+
 
 ⚙️ Tech Architecture
 
