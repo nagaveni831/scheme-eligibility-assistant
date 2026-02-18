@@ -17,4 +17,4 @@ pip install -r requirements.txt
 python app.py
 
 ## Author
-Eva – Computer Science Student
+Nagaveni – Computer Science Student
