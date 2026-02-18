@@ -7,28 +7,43 @@ Instead of manually searching multiple websites, users simply answer a few quest
 ✨ Key Features
 
 🧠 Intelligent eligibility analysis engine
+
 📊 Relevance-based scheme ranking
+
 🗣 Voice interaction support
+
 📄 Downloadable PDF report generation
+
 ⚡ Real-time responses
+
 🔍 Smart filtering (income, category, etc.)
+
 🌐 Live deployed web application
 
 🧩 System Workflow
 
 1.User enters personal details
+
 2.System analyzes eligibility criteria
+
 3.Matching schemes are filtered
+
 4.Results ranked by relevance score
+
 5.Explanation generated for each scheme
+
 6.User can download detailed report
 
 ⚙️ Tech Architecture
 
 Frontend: HTML, CSS, JavaScript
+
 Backend: Python, Flask
+
 Core Logic: Eligibility engine + relevance ranking algorithm
+
 Libraries: Requests, ReportLab, Dotenv
+
 Server: Gunicorn
 Deployment: Render (Cloud Hosting)
 
