@@ -4,6 +4,7 @@ Finding applicable government schemes can be confusing and time-consuming. This 
 
 Instead of manually searching multiple websites, users simply answer a few questions and receive tailored results with explanations and application links.
 
+
 ✨ Key Features
 
 🧠 Intelligent eligibility analysis engine
@@ -21,6 +22,7 @@ Instead of manually searching multiple websites, users simply answer a few quest
 🌐 Live deployed web application
 
 
+
 🧩 System Workflow
 
 1.User enters personal details
@@ -36,6 +38,7 @@ Instead of manually searching multiple websites, users simply answer a few quest
 6.User can download detailed report
 
 
+
 ⚙️ Tech Architecture
 
 Frontend: HTML, CSS, JavaScript
@@ -47,5 +50,6 @@ Core Logic: Eligibility engine + relevance ranking algorithm
 Libraries: Requests, ReportLab, Dotenv
 
 Server: Gunicorn
+
 Deployment: Render (Cloud Hosting)
 
