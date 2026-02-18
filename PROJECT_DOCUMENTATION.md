@@ -171,7 +171,4 @@ This project highlights how structured logic and intelligent processing can tran
 
 ---
 
-## 15. Author
 
-Eva
-Computer Science Student
