@@ -33,9 +33,10 @@ Instead of manually searching multiple websites, users simply answer a few quest
 
 ## ⚙️ Tech Architecture
 
-**Frontend:** HTML, CSS, JavaScript
-**Backend:** Python, Flask
-**Core Logic:** Eligibility engine + relevance ranking algorithm
-**Libraries:** Requests, ReportLab, Dotenv
-**Server:** Gunicorn
-**Deployment:** Render (Cloud Hosting)
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Python, Flask  
+- **Core Logic:** Eligibility engine + relevance ranking algorithm  
+- **Libraries:** Requests, ReportLab, Dotenv  
+- **Server:** Gunicorn  
+- **Deployment:** Render (Cloud Hosting)
+
